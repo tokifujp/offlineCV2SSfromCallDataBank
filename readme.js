@@ -1,7 +1,7 @@
 /*
-# offlineCV to Spreadsheet from Omni DataBank
+# offlineCV to Spreadsheet from CallDataBank
 
-OmniDatabank APIを利用してコールログを取得しSpreadsheetに出力・保存します。
+CallDatabank APIを利用してコールログを取得しSpreadsheetに出力・保存します。
 
 ## 設定
 
