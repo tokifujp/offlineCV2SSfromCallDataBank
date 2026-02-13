@@ -5,7 +5,7 @@ function doMain(){
   createSpreadSheet(arryCalls);               // Spreadsheet生成
 }
 
-// Omni DataBankに認証してaccessTokenを返す
+// CallDataBankに認証してaccessTokenを返す
 function authOdb(){
   const url = ODB_URL+'/authentications';
   let body = {
@@ -22,7 +22,7 @@ function authOdb(){
   return response['accessToken']
 }
 
-// Omni DataBankからコールログを取得する
+// CallDataBankからコールログを取得する
 function getCallLogs(){
   const url = ODB_URL+'/behaviors/phone/calls?campaignId='+CAMPAIGN_ID+'&beginTimestamp='+getBeginTimeStamp()+'&endTimestamp='+getEndTimeStamp();
   let credentials = authOdb(); // 認証してaccessToken取得
