@@ -6,7 +6,7 @@ function doMain(){
 }
 
 // CallDataBankに認証してaccessTokenを返す
-function authOdb(){
+function authCdb(){
   const url = ODB_URL+'/authentications';
   let body = {
     'sid': SID,
@@ -25,7 +25,7 @@ function authOdb(){
 // CallDataBankからコールログを取得する
 function getCallLogs(){
   const url = ODB_URL+'/behaviors/phone/calls?campaignId='+CAMPAIGN_ID+'&beginTimestamp='+getBeginTimeStamp()+'&endTimestamp='+getEndTimeStamp();
-  let credentials = authOdb(); // 認証してaccessToken取得
+  let credentials = authCdb(); // 認証してaccessToken取得
   let options = {
     'method': 'get',
     'contentType': 'application/json',
