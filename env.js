@@ -1,5 +1,5 @@
 // Omni DataBank API設定
-const ODB_URL = 'https://api.omni-databank.com';                 // Omni DataBank API Endpoint URL
+const ODB_URL = 'https://api-2.omni-databank.com';                 // Omni DataBank API Endpoint URL
 const SID='1';                                                   // Service Consumer ID: 通常は1
 const ODB_USER = 'hoge@yourdomain.com';                          // Omni DataBank ユーザーID
 const ODB_PASSWORD = 'passwordString';                           // Omni Databank パスワード
