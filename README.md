@@ -1,7 +1,7 @@
-# offlineCV to Spreadsheet from Omni DataBank
+# offlineCV to Spreadsheet from CallDataBank
 
 ![CallDataBank](https://call.omnidatabank.jp/wp-content/themes/themeLP/images/fgLogo.png?ver=111)  
-コールトラッキングサービス Omni DataBank ( [Call DataBank](https://call.omnidatabank.jp/) ) のAPIを利用してGoogle Spredsheetに任意のキャンペーンのコールログを出力・保存します。
+コールトラッキングサービス CallDataBank ( [CallDataBank](https://call.omnidatabank.jp/) ) のAPIを利用してGoogle Spredsheetに任意のキャンペーンのコールログを出力・保存します。
 
 ## clasp
 
